@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="add_a_receiver">Add a receiver</string>
+    <string name="enter_email">Enter email</string>
+    <string name="add">add</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+</resources>

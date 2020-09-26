@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF7DA"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of email groups"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        style="@style/font"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+android:padding="30dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="@string/add_a_receiver">
+
+    </TextView>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/plus1"
+        android:scaleType="fitCenter"
+        style="@style/compose"
+        android:id="@+id/compose"/>
+
+
+
+</RelativeLayout>
